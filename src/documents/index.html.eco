@@ -1,0 +1,13 @@
+---
+name: 'Home'
+match: '/index'
+menuText: 'home'
+menuTitle: 'Return home'
+menuOrder: 1
+layout: 'page'
+---
+
+<section class="pitch">
+	<h2>Welcome</h2>
+	<p>Dreamer and developer.</p>
+</section>

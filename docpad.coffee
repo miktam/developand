@@ -104,6 +104,7 @@ module.exports =
 
       social:
         """
+        devoxx
         twitter
         linkedin
         github
@@ -192,6 +193,10 @@ module.exports =
           url: 'mailto:andrei@developand.com'
           title: 'Contact me'
           cssClass: 'contact-button'
+        devoxx:
+          text: 'Devoxx Conference'
+          url: 'http://www.devoxx.com/display/DV12/Code+injection+in++Android'
+          title: 'Visit presentation'
 
     # Link Helper
     getPreparedLink: (name) ->

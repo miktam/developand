@@ -76,8 +76,8 @@ module.exports =
             link = @getPreparedLink.bind(@)
             text """
               Programmer, entrepreneur, father and husband<br/>
-              I use #{link 'nodejs'}, #{link 'android'}, #{link 'javascript'}, #{link 'coffeescript'},  #{link 'html5'} and #{link 'opensource'}.<br/>
-              Available for consulting and training. #{link 'contact'}.
+              I use #{link 'nodejs'}, #{link 'android'}, #{link 'javascript'}, #{link 'coffeescript'},  #{link 'html5'} and #{link 'opensource'}<br/>
+              Available for consulting - #{link 'contact'}
               """
           </t>
           '''

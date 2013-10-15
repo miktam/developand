@@ -339,14 +339,6 @@ module.exports =
       docpadServer.get /^\/(?:t|twitter|tweet)(?:\/(.*))?$/, (req, res) ->
         res.redirect 301, "https://twitter.com/miktam"
 
-      # Sharing Feed
-#      docpadServer.get /^\/feeds?\/shar(e|ing)(?:\/(.*))?$/, (req, res) ->
-#        res.redirect 301, "http://feeds.feedburner.com/balupton/shared"
-
-      # Feeds
-#      docpadServer.get /^\/feeds?(?:\/(.*))?$/, (req, res) ->
-#        res.redirect 301, "http://feeds.feedburner.com/balupton"
-
 
   # =================================
   # Plugin Configuration
